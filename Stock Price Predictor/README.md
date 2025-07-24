@@ -8,25 +8,10 @@ Visualize historical and predicted prices with confidence intervals.
 Modular design with type hints and logging for robustness.
 Handles timezone issues in date columns for compatibility with Prophet.
 
-**Installation**
-
-Clone the repository:
-git clone https://github.com/your-username/stock-price-predictor.git
-cd stock-price-predictor
-
-
-Create and activate a virtual environment:
-python -m venv env
-source env/bin/activate  # On Windows: env\Scripts\activate
-
-
-Install dependencies:
-pip install -r requirements.txt
-
-
-
 Dependencies
-See requirements.txt for the full list. Key libraries:
+See requirements.txt for the full list. 
+
+Key libraries:
 
 yfinance: Fetch stock data.
 prophet: Time-series forecasting.
